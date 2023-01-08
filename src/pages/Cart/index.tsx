@@ -64,7 +64,7 @@ const Cart = (): JSX.Element => {
             <th aria-label="delete icon" />
           </tr>
         </thead>
-        <tbody>]
+        <tbody>
           {cartFormatted.map(product => {
             return (
               <tr key={product.id} data-testid="product">
